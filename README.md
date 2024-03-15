@@ -12,3 +12,17 @@ Math.sum([1,2,3,4])
 Math.prod([1,2,3,4])
 // 24
 ```
+
+```
+function hypot(...args) {
+  return Math.sqrt(
+    Math.sum(args, x => x**2)
+  );
+}
+
+hypot(1,2,3,4)
+// 5.4772
+
+Math.hypot(1,2,3,4)
+// 5.4772
+```
