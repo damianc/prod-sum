@@ -14,6 +14,13 @@ Math.prod([1,2,3,4])
 ```
 
 ```
+// sum of squares
+
+Math.sum([1,2,3,4], x=>x**2)
+// 30
+```
+
+```
 function hypot(...args) {
   return Math.sqrt(
     Math.sum(args, x => x**2)
